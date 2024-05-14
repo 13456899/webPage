@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background: url(images/background.png);
+    background-size: cover;
+}
+#title {
+    background-color: aqua;
+    width: 50%;
+    display: inline;
+}
+.menu {
+    display: inline-block;
+}
+.menubar {
+    display: inline-block;
+    width: 60%
+}
+#menu > li{
+    display: inline;
+    background-color: yellow;
+    padding: 2%;
+    text-align: center;
+}
+li > a {
+    text-decoration: none;
+    color: black;
+    
+}
+li.menu :hover {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+a {
+    color: black; 
+    text-decoration: none;
+}
+.container {
+    display: flex;
+}
+td:hover {background-color: yellow; font-weight: bolder;}
+td { border-radius: 10px;}
+table { border: 10px violet;}
